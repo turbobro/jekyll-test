@@ -1,0 +1,61 @@
+# Site
+
+title: Jekyll test site
+description: Your description
+url: 
+baseurl: 
+locale: en_US
+author: 
+  name:  Name
+  email: @mail
+  about: 
+  picture:
+  social: 
+    twitter: 
+    github: 
+
+
+# Jekyll
+
+permalink:          /:title/
+markdown: kramdown
+
+# Gems
+
+plugins:
+  - jekyll
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-press
+  - jekyll-avatar
+  - jekyll-polyglot
+  - jekyll-seo-tag
+
+# Exclude/ include list
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Pagination for blog list
+
+permalink: /:year/:month/
+pagination:
+  enabled: true
+  per_page: 12
+  sort_reverse: true
+  limit: 0
+  sort_field: 'date'
+  permalink: '/page/:num/'
+  title: ':title'
+  trail:
+    before: 2
+    after: 2
+
+# Additional 
+
+disqus: 
+google_analytics:
+
