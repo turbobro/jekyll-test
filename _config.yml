@@ -2,6 +2,8 @@
 
 title: Jekyll test site
 description: Your description
+url: 
+baseurl: 
 locale: en_US
 author: 
   name:  Name
@@ -39,7 +41,6 @@ exclude:
 
 # Pagination for blog list
 
-permalink: /:year/:month/
 pagination:
   enabled: true
   per_page: 12
