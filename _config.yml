@@ -16,8 +16,7 @@ author:
 
 
 # Jekyll
-
-permalink:          /:title/
+permalink: /:year/:month/
 markdown: kramdown
 
 # Gems
