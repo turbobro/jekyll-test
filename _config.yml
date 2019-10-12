@@ -41,7 +41,6 @@ exclude:
 
 # Pagination for blog list
 
-permalink: /:year/:month/
 pagination:
   enabled: true
   per_page: 12
