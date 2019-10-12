@@ -2,8 +2,8 @@
 
 title: Jekyll test site
 description: Your description
-url: 
-baseurl: 
+url: https://turbobro.github.io/
+baseurl: https://turbobro.github.io/
 locale: en_US
 author: 
   name:  Name
@@ -17,7 +17,7 @@ author:
 
 # Jekyll
 
-permalink:          /:title/
+permalink: /:title/
 markdown: kramdown
 
 # Gems
